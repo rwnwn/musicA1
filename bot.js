@@ -352,8 +352,8 @@ client.on('message', message => {
 
 
 
-const devs = ["394949560327208960"]; //الايدي حقك
-const adminprefix = ["A"]; // البرفكس
+const devs = ["501902518302015501"]; //الايدي حقك
+const adminprefix = ["a"]; // البرفكس
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
